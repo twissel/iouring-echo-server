@@ -1,5 +1,3 @@
-io_uring toy http echo server
-
 Benchmarks:
 ```
 wrk -d 5s -t 8 -c 200  http://127.0.0.1:9000/
