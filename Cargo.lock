@@ -16,14 +16,6 @@ version = "0.1.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
-name = "echo-server"
-version = "0.1.0"
-dependencies = [
- "iou 0.2.0 (git+https://github.com/twissel/iou?branch=additional-methods)",
- "nix 0.16.1 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
 name = "iou"
 version = "0.2.0"
 source = "git+https://github.com/twissel/iou?branch=additional-methods#a9ea0ec4cb13b7f83c66a3e7e1b2fe78f615a556"
@@ -31,6 +23,14 @@ dependencies = [
  "bitflags 1.2.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "nix 0.16.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "uring-sys 1.0.0-beta (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "iouring-echo-server"
+version = "0.1.0"
+dependencies = [
+ "iou 0.2.0 (git+https://github.com/twissel/iou?branch=additional-methods)",
+ "nix 0.16.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
